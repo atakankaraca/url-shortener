@@ -1,0 +1,13 @@
+global using System.Text;
+global using System.ComponentModel;
+global using Microsoft.AspNetCore.Diagnostics;
+global using Microsoft.AspNetCore.Mvc;
+global using FluentValidation;
+global using UrlShortener.Api.Controllers.Base;
+global using UrlShortener.Api.Data;
+global using UrlShortener.Api.Exceptions;
+global using UrlShortener.Api.Extensions;
+global using UrlShortener.Api.Models;
+global using UrlShortener.Api.Models.Settings;
+global using UrlShortener.Api.Services.UrlShortenerService;
+global using UrlShortener.Api.Constants;

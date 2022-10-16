@@ -1,0 +1,8 @@
+services:
+  api:
+    image: url-shortener
+    ports:
+      - "5001:80"
+    build:
+      context: .
+      dockerfile: Dockerfile
